@@ -25,7 +25,7 @@ function checkLuckyBirthday(){
   compareValues(sum,luckyNumber.value)
   else{
   outputText.innerText="Please enter both the fields";
-  outputGif.src ="/gif/unlucky.gif";
+  outputGif.src ="/gif/incomplete.gif";
   }
 }
 function calcSum(dob){
