@@ -1,0 +1,123 @@
+:root {
+  --primary-color: #861bce;
+  --secondary-color: #3feb8c;
+}
+body{
+  margin-top: 0;
+  margin-bottom: 3rem;
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+#letsgo{
+  display: block;
+  max-width: 25vw;
+  margin:auto;
+  box-sizing: auto;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-weight: 550;
+  cursor: pointer;
+  box-shadow: -4px 3px 19px 2px var(--secondary-color);
+}
+#container {
+  margin: auto;
+  width: 60vw;
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: -4px 3px 19px 2px var(--secondary-color);
+}
+#top {
+  margin: auto;
+  width: 60vw;
+  text-align: center;
+  height: 100vh;
+}
+#topgif{
+  max-height: 60vh;
+  max-width: 60vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+}
+#outputGif{
+  max-height: 60vh;
+  max-width: 60vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+}
+.footer {
+    text-align: center;
+}
+.icon {
+  color: white;
+  text-align: center;
+  font-size: 2.8rem;
+  margin-top: 5vh;
+  margin-right: 0.6vw;
+  margin-left: 0.6vw;
+}
+.github-repo {
+  text-align: center;
+  color: var(--secondary-color);
+  margin-top: 0;
+  padding: 0;
+}
+.github-repo-link {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.labels{
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.inputs{
+  display: block;
+  margin: auto;
+  width: 55%;
+  padding: 0.3125rem 0.3125rem;
+  background-color: #95f1e4;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #00494d;
+  text-align: start;
+  cursor: pointer;
+  box-shadow: 5px 5px 20px rgb(207, 207, 207);
+}
+
+#submit{
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 30%;
+  align-self: center;
+  cursor: pointer;
+  min-width: 25vw;
+  box-shadow: 5px 5px 20px rgb(161, 161, 161);
+}
+
+h1{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-size: 3rem;
+  font-weight: 700;
+}
